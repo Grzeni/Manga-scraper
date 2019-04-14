@@ -9,4 +9,7 @@ Extract the files to a directory and from there:
 > sudo python3 setup.py install
 ## Execution
 > cd manga_scraper
+##
 > python3 mygui.py
+## Example
+![cyk](example.png?raw=true "example")
