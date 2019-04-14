@@ -5,11 +5,11 @@ and downloads the scans to a beforehand specified directory on your drive.
 ## Installation
 Extract the files to a directory and from there:
 > sudo apt-install python3-tk
-##
+
 > sudo python3 setup.py install
 ## Execution
 > cd manga_scraper
-##
+
 > python3 mygui.py
 ## Example
 ![cyk](example.png?raw=true "example")
