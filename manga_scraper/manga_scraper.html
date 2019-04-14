@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module manga_scraper</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>manga_scraper</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/grzegorz/manga_scraper.py">/home/grzegorz/manga_scraper.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="os.html">os</a><br>
+</td><td width="25%" valign=top><a href="requests.html">requests</a><br>
+</td><td width="25%" valign=top><a href="shutil.html">shutil</a><br>
+</td><td width="25%" valign=top><a href="sys.html">sys</a><br>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-add_zeros"><strong>add_zeros</strong></a>(pageNum)</dt><dd><tt>#&nbsp;adding&nbsp;zeros&nbsp;to&nbsp;the&nbsp;page&nbsp;numbers</tt></dd></dl>
+ <dl><dt><a name="-download_chapter"><strong>download_chapter</strong></a>(mangaTitle, chapterNum)</dt><dd><tt>#&nbsp;downloading&nbsp;the&nbsp;actual&nbsp;scans</tt></dd></dl>
+ <dl><dt><a name="-download_image"><strong>download_image</strong></a>(url, download_path, pageNum)</dt><dd><tt>#&nbsp;downloading&nbsp;the&nbsp;image</tt></dd></dl>
+ <dl><dt><a name="-get_page_url"><strong>get_page_url</strong></a>(mangaTitle, chapterNum, pageNum=1)</dt><dd><tt>#&nbsp;creating&nbsp;the&nbsp;url&nbsp;of&nbsp;the&nbsp;webpage&nbsp;which&nbsp;contains&nbsp;the&nbsp;manga,&nbsp;chapter&nbsp;and&nbsp;page</tt></dd></dl>
+ <dl><dt><a name="-get_path"><strong>get_path</strong></a>(mangaTitle, chapterNum)</dt><dd><tt>#&nbsp;creating&nbsp;the&nbsp;path&nbsp;to&nbsp;which&nbsp;to&nbsp;download&nbsp;the&nbsp;manga&nbsp;scans</tt></dd></dl>
+ <dl><dt><a name="-nameChanger"><strong>nameChanger</strong></a>(title)</dt><dd><tt>#&nbsp;converting&nbsp;the&nbsp;manga&nbsp;name</tt></dd></dl>
+ <dl><dt><a name="-released_or_not"><strong>released_or_not</strong></a>(mangaTitle, chapterNum)</dt><dd><tt>#&nbsp;checking&nbsp;to&nbsp;see&nbsp;if&nbsp;the&nbsp;chapter&nbsp;was&nbsp;released</tt></dd></dl>
+ <dl><dt><a name="-send_request"><strong>send_request</strong></a>(url, binary=False)</dt><dd><tt>#&nbsp;sending&nbsp;a&nbsp;request</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>ESTIMATED_MAX_DIGITS</strong> = 3<br>
+<strong>FILE_EXT</strong> = '.jpg'<br>
+<strong>INITIAL_PAGE</strong> = 1<br>
+<strong>LOCAL_PATH</strong> = '/home/grzegorz/Pulpit/Manga/'<br>
+<strong>PROVIDER</strong> = 'http://www.mangareader.net/'</td></tr></table>
+</body></html>
